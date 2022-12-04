@@ -1,0 +1,40 @@
+body {
+    /* background-color: #E6E5E5; */
+    background-image:url(../images/fond3.jpg);
+    background-size: cover;
+    background-position: center !important;
+    background-attachment:fixed;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.content {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.cards {
+    background-color: #F9F9F8;
+    padding: 18px;
+    border-radius: 3px;
+    border-right: 4px solid #7953B3;
+    opacity: 0.88;
+}
+.cards h3 {
+    font-size: 1.5em;
+    color: #97AD70;
+}
+.radio {
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.radio input {
+    margin-left: 12px;
+    font-size: 2rem;
+}
+.form-control::placeholder {
+    font-size: 13px;
+    font-style: italic;
+    color: #444;
+}
